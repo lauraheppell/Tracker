@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.inline-block-child {
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 5px solid black;
+}
+
+.no-dashes {
+  border: none;
+}
+
+img {
+  position: fixed;
+  right: 20%;
+  bottom: 30%;
+  max-width: 30%;
+}
+
